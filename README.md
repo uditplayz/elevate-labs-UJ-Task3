@@ -1,17 +1,17 @@
 Made a new VPC called my-first-vpc in AWS for Task 3 @ Elevate labs
-
-Set the VPC CIDR to 10.0.0.0/16.
+<br />
+Set the VPC CIDR to 10.0.0.0/16. <br />
 Made two subnets:
-
-Public subnet: 10.0.1.0/24
+<br /><br />
+Public subnet: 10.0.1.0/24 <br />
 Private subnet: 10.0.2.0/24
+<br />
+Turned on automatic public IP for public subnet (so it gets internet).<br />
+Kept auto-assign off for private subnet (no internet).<br />
+Set up two route tables:<br />
 
-Turned on automatic public IP for public subnet (so it gets internet).
-Kept auto-assign off for private subnet (no internet).
-Set up two route tables:
-
-Public route table: Links public subnet to internet (has a route for 0.0.0.0/0 to IGW).
-
+Public route table: Links public subnet to internet (has a route for 0.0.0.0/0 to IGW). <br />
+<br />
 Private route table: Only does local VPC traffic (no internet route).
 
 ### Info
