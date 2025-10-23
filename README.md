@@ -1,4 +1,4 @@
-Made a new VPC called my-first-vpc in AWS.
+Made a new VPC called my-first-vpc in AWS for Task 3 @ Elevate labs
 
 Set the VPC CIDR to 10.0.0.0/16.
 Made two subnets:
